@@ -8,14 +8,17 @@
     <style>
         html{
             font-size: 18px;
+            height: 100%;
         }
         body{
+            margin: 0 auto;
+            min-height: 100%;
             max-width: 1920px;
             background-color: rgb(163, 183, 238);
             font: normal normal normal 1rem/1.1167 Gill Sans MT
         }
 
-        .conteiner{            
+        .container{            
             width: 42.05%;
             position: absolute;
             top:50%;
@@ -39,7 +42,7 @@
             margin-top: 1.6667rem;
             height: 23.5556rem ;
             background-color: white;
-            background: transparent url('img/mountain.png') 0% 0% no-repeat padding-box;
+            background: transparent url(img:mountain.jpg) 0% 0% no-repeat padding-box;
             background-size: cover;               
             padding-left: 2.222rem;
             
@@ -117,6 +120,12 @@
            display: inline;
         } 
 
+        .right-column-botton-action p {
+            padding-left: ;
+            font: normal normal normal 1rem/1.1167 Gill Sans MT;
+
+        }
+
         .right-column-botton-action a {
             padding-left: ;
             font: normal normal normal 1rem/1.1167 Gill Sans MT;
@@ -148,7 +157,7 @@
     </style>
 </head>
 <body>
-    <div class="conteiner">
+    <div class="container">
         <div class="left-column">
             <div class="left-column-container">
                 <h1>Sign up</h1>
@@ -162,7 +171,7 @@
             </div>
            
         </div>
-        <div class="right-column">Desinysis Stulpelis
+        <div class="right-column">
             <div class="right-column-container">
                 <div class="input">
                     <label for="username">User name</label>
@@ -183,6 +192,8 @@
                 <div class="close">X</div>
                 <div class="right-column-botton-action">
                     <botton class="btn"> Get started </botton>
+                    <p>or</p>
+                    <a href="Sign in">Sign in</a>
                 </div>
             </div>
         </div>
